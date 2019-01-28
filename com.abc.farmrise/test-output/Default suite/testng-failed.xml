@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.farmrise.test.FarmRise">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setupReport"/>
+          <include name="verify_MoreTab"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- com.farmrise.test.FarmRise -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
